@@ -1,0 +1,490 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin-inline: auto;
+}
+
+.nuur-zurag {
+  background-image: url(./images/HeroImage.png);
+  width: 1440px;
+  height: 773px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 30px;
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1204px;
+  height: 43px;
+}
+
+.logo {
+  background-image: url(./images/logo\ 1.png);
+  background-position: center;
+  background-size: cover;
+  width: 101px;
+  height: 35px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 392px;
+  height: 22px;
+  gap: 24px;
+}
+
+.navigation a {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+
+.language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-family: "Inter";
+}
+
+.title {
+  position: absolute;
+  margin-inline: auto;
+  top: 169px;
+  left: 410px;
+  right: 410px;
+  bottom: 210px;
+  width: 618px;
+  height: 394px;
+  color: white;
+  text-align: center;
+}
+.titlep1 {
+  font-size: 80px;
+  font-weight: 400;
+  width: 100%;
+  height: 80px;
+  font-family: "Bebas Neue", sans-serif;
+  opacity: 0.5;
+}
+.titlep2 {
+  font-size: 250px;
+  font-weight: 400;
+  width: 100%;
+  height: 250px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.titlep3 {
+  font-size: 64px;
+  font-weight: 900;
+  opacity: 0.8;
+  width: 100%;
+  height: 114px;
+  font-family: "Hanuman", sans-serif;
+}
+
+.location-section {
+  width: 1440px;
+  height: 500px;
+  position: relative;
+}
+.location-bg-img {
+  background-image: url(./images/Location\ image.png);
+  width: 1440px;
+  height: 500px;
+}
+
+.show-locations {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 65px;
+  bottom: 65px;
+  left: 108px;
+  right: 108px;
+}
+.show-locations div {
+  width: 276px;
+  height: 370px;
+  background-color: black;
+  border-radius: 40px;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+  position: relative;
+}
+
+.show-locations div:hover {
+  opacity: 0.8;
+  cursor: zoom-in;
+}
+
+.location-image1 {
+  background-image: url(./images/nuga.png);
+  background-position: center;
+  background-size: cover;
+}
+.location-image2 {
+  background-image: url(./images/gandan.png);
+  background-position: center;
+  background-size: cover;
+}
+.location-image3 {
+  background-image: url(./images/nuur.png);
+  background-position: center;
+  background-size: cover;
+}
+.location-image4 {
+  background-image: url(./images/togoo.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.show-locations div p {
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 37px;
+  color: #fdfdfe;
+  opacity: 0.8;
+  position: absolute;
+  top: 141px;
+  bottom: 141px;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+  text-shadow: 0px 4px 4.9px black;
+}
+
+.roadmap {
+  background-image: url(./images/Roadmap\ image.png);
+  width: 1440px;
+  height: 1220px;
+}
+.menu {
+  display: flex;
+}
+.destination-title {
+  width: 100%;
+  position: relative;
+  top: 120px;
+  text-align: center;
+}
+.destination {
+  display: flex;
+  flex-direction: column;
+  width: 513px;
+  height: 640px;
+  position: relative;
+  top: 260px;
+  left: 121px;
+  right: 808px;
+  justify-content: space-between;
+}
+.bairshil-khuree {
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bairshil {
+  font-family: "inter";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.aimag-hot {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "montserrat";
+}
+
+.gazar {
+  margin-left: 30px;
+}
+.date-circle {
+  width: 52px;
+  height: 52px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50%;
+  background-color: #f7f6f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dugui-zuragnuud-bairshil {
+  position: relative;
+  top: 100px;
+  right: 120px;
+  transform: translateX(50%);
+  width: 647px;
+  height: 800px;
+}
+
+.dugui-zurag {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  display: none;
+}
+
+.image01 {
+  right: 0px;
+  top: 220px;
+}
+.image02 {
+  left: 200px;
+  top: 50px;
+}
+.image03 {
+  left: 0px;
+  top: 100px;
+}
+.image04 {
+  left: 80px;
+  top: 300px;
+}
+.image05 {
+  left: 0px;
+  top: 0px;
+}
+
+.hover01:hover ~ .image01 {
+  display: block;
+}
+.hover02:hover ~ .image02 {
+  display: block;
+}
+.hover03:hover ~ .image03 {
+  display: block;
+}
+.hover04:hover ~ .image04 {
+  display: block;
+}
+.hover05:hover ~ .image05 {
+  display: block;
+}
+
+.bairshil-khuree:hover {
+  border: 4px solid white;
+}
+
+.price_footer {
+  width: 1440px;
+  height: 1120px;
+  position: relative;
+}
+
+.price_footer_bg_image {
+  background-image: url(./images/Price&Footer\ image.png);
+  width: 1440px;
+  height: 1120px;
+  position: relative;
+}
+
+.price_title {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 79px;
+}
+
+.price_title p:first-child {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50.83px;
+}
+.price_title p:last-child {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.2px;
+  margin-top: 10px;
+  color: #18181bb2;
+}
+.packages {
+  position: absolute;
+  left: 120px;
+  right: 120px;
+  display: flex;
+  gap: 24px;
+  height: 527px;
+}
+
+.package {
+  width: 384px;
+  height: 527px;
+  background-color: #fafbfc;
+  border-radius: 40px;
+  position: relative;
+}
+
+.package:hover {
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+
+.package:hover .select-package-button {
+  background-color: black;
+  color: white;
+}
+
+.heart-logo {
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+  background-position: center;
+}
+.package div:first-child {
+  position: relative;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.package div:first-child span {
+  font-family: "inter";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.package div:nth-child(2) p:first-child {
+  font-family: "montserrat";
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  left: 24px;
+  top: 12px;
+  bottom: 0px;
+}
+
+.package div:nth-child(2) p:nth-child(2) {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 500;
+  color: #919191;
+  position: relative;
+  left: 24px;
+  top: 10px;
+  bottom: 0px;
+}
+.package div:nth-child(2) p:nth-child(3) {
+  margin-top: 20px;
+  font-family: "inter";
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  position: relative;
+  top: 20px;
+  left: 64px;
+}
+
+.includes-list {
+  position: relative;
+  left: 24px;
+  top: 70px;
+}
+
+.includes-list li {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 14px;
+  color: #3f4145;
+}
+
+.select-package-button {
+  position: absolute;
+  bottom: 48px;
+  left: 24px;
+  right: 24px;
+  height: 48px;
+  background-color: #a4d1e2;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "inter";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+}
+
+.social-media {
+  height: 44px;
+  width: 1200px;
+  position: relative;
+  bottom: 80px;
+  left: 120px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ending-logo {
+  background-image: url(./images/logo\ 1.png);
+  background-position: center;
+  background-size: cover;
+  width: 102px;
+  height: 35px;
+}
+.face-insta {
+  display: flex;
+  width: 358px;
+  height: 44px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.face-insta div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 1000px;
+  padding: 10px 20px;
+}
+.face-insta span {
+  color: #6972b5;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+.facebook-logo {
+  background-image: url(./images/Facebook\ Icon.png);
+  background-position: center;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+.instagram-logo {
+  background-image: url(./images/Instagram\ Icon.png);
+  background-position: center;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
