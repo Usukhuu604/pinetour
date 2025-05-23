@@ -31,11 +31,10 @@
 }
 
 .logo {
-  background-image: url(./images/logo\ 1.png);
-  background-position: center;
-  background-size: cover;
   width: 101px;
   height: 35px;
+  background: center / contain no-repeat url(./images/logo\ 1.png);
+  cursor: pointer;
 }
 
 .navigation {
@@ -66,6 +65,7 @@
   height: 40px;
   text-align: center;
   font-family: "Inter";
+  cursor: pointer;
 }
 
 .title {
@@ -129,8 +129,7 @@
   height: 370px;
   background-color: black;
   border-radius: 40px;
-  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
-    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
   position: relative;
 }
 
@@ -140,24 +139,16 @@
 }
 
 .location-image1 {
-  background-image: url(./images/nuga.png);
-  background-position: center;
-  background-size: cover;
+  background: center / cover no-repeat url(./images/nuga.png);
 }
 .location-image2 {
-  background-image: url(./images/gandan.png);
-  background-position: center;
-  background-size: cover;
+  background: center / cover no-repeat url(./images/gandan.png);
 }
 .location-image3 {
-  background-image: url(./images/nuur.png);
-  background-position: center;
-  background-size: cover;
+  background: center / cover no-repeat url(./images/nuur.png);
 }
 .location-image4 {
-  background-image: url(./images/togoo.png);
-  background-position: center;
-  background-size: cover;
+  background: center / cover no-repeat url(./images/togoo.png);
 }
 
 .show-locations div p {
@@ -181,7 +172,8 @@
   height: 1220px;
 }
 .menu {
-  display: flex;
+  height: 1000px;
+  width: 100%;
 }
 .destination-title {
   width: 100%;
@@ -192,7 +184,7 @@
 .destination {
   display: flex;
   flex-direction: column;
-  width: 513px;
+  width: 80%;
   height: 640px;
   position: relative;
   top: 260px;
@@ -206,6 +198,7 @@
   border-radius: 120px;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .bairshil {
@@ -236,41 +229,32 @@
   align-items: center;
 }
 
-.dugui-zuragnuud-bairshil {
-  position: relative;
-  top: 100px;
-  right: 120px;
-  transform: translateX(50%);
-  width: 647px;
-  height: 800px;
-}
-
 .dugui-zurag {
-  position: absolute;
   width: 180px;
   height: 180px;
+  position: absolute;
   display: none;
 }
 
 .image01 {
   right: 0px;
-  top: 220px;
+  top: 0;
 }
 .image02 {
-  left: 200px;
+  right: 200px;
   top: 50px;
 }
 .image03 {
-  left: 0px;
+  right: 300px;
   top: 100px;
 }
 .image04 {
-  left: 80px;
+  right: 80px;
   top: 300px;
 }
 .image05 {
-  left: 0px;
-  top: 0px;
+  right: 0px;
+  bottom: 200px;
 }
 
 .hover01:hover ~ .image01 {
@@ -302,7 +286,7 @@
 .price_footer_bg_image {
   background-image: url(./images/Price&Footer\ image.png);
   width: 1440px;
-  height: 1120px;
+  height: 100%;
   position: relative;
 }
 
@@ -344,13 +328,13 @@
 }
 
 .package:hover {
-  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
-    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
 }
 
 .package:hover .select-package-button {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 
 .heart-logo {
@@ -433,21 +417,17 @@
 }
 
 .social-media {
-  height: 44px;
   width: 1200px;
-  position: relative;
+  position: absolute;
   bottom: 80px;
   left: 120px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .ending-logo {
-  background-image: url(./images/logo\ 1.png);
-  background-position: center;
-  background-size: cover;
+  background: center / cover no-repeat url(./images/logo\ 1.png);
   width: 102px;
   height: 35px;
 }
@@ -456,16 +436,20 @@
   width: 358px;
   height: 44px;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
 }
 .face-insta div {
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
   align-items: center;
   background-color: white;
-  border-radius: 1000px;
+  border-radius: 100px;
   padding: 10px 20px;
+}
+
+.face-insta div:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 .face-insta span {
   color: #6972b5;
@@ -475,16 +459,12 @@
   text-align: center;
 }
 .facebook-logo {
-  background-image: url(./images/Facebook\ Icon.png);
-  background-position: center;
-  background-size: cover;
+  background: center / contain no-repeat url(./images/Facebook\ Icon.png);
   width: 24px;
   height: 24px;
 }
 .instagram-logo {
-  background-image: url(./images/Instagram\ Icon.png);
-  background-position: center;
-  background-size: cover;
+  background: center / contain no-repeat url(./images/Instagram\ Icon.png);
   width: 24px;
   height: 24px;
 }
